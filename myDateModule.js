@@ -1,0 +1,3 @@
+exports.currentDateTime = () =>{
+    return Date() 
+}
