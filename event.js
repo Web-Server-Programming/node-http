@@ -3,6 +3,7 @@ const eventEmitter = new events.EventEmitter();
 
 myEventHandler = () =>{
     console.log("I hear a scream")
+    
 }
 
 eventEmitter.on("scream",myEventHandler)
